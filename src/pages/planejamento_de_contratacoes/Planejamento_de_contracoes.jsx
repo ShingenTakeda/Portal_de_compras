@@ -1,4 +1,5 @@
 import React from "react";
+import Sidebar from "../../components/sidebar/Sidebar";
 import { StringHTML } from "../../components/StringHTML";
 import "../Main.modules.css"
 
@@ -13,7 +14,7 @@ const Planejamento = () => {
             <p class="font-bold text-3xl text-center items-center py-10">
                 Aqui está a estrutura da página de Planejamento Contratações
             </p>
-
+            {/* <Sidebar/> */}
             <div className="pagPla">
                 <StringHTML htmlString={dado.text.data} />
             </div>

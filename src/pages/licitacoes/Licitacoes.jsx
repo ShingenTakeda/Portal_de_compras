@@ -14,7 +14,6 @@ const Licitacoes = () => {
                 Aqui está a estrutura da página de Licitações
             </p>
             <div className="wrapper">
-                <Sidebar />
                 <StringHTML htmlString={dado.text.data} />
             </div>
         </div>

@@ -16,7 +16,7 @@ const Contratacoes = () => {
             </p>
 
             <div className="wrapper">
-                <Sidebar />
+
                 <StringHTML htmlString={dado.text.data} />
             </div>
         </div>

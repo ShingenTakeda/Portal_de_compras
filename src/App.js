@@ -10,6 +10,7 @@ import Infos from './components/Infos';
 import Footer from './components/Footer';
 import Navbar from './components/navbar/Navbar'
 import Banner from './components/banner/Banner';
+import Sidebar from "./components/sidebar/Sidebar";
 
 /* Páginas */
 import Inicio from "./pages/inicio/Inicio";
@@ -38,6 +39,7 @@ function App() {
                 </Routes>
            
             {/* */}
+            <Sidebar></Sidebar>
             <Footer/>
         </Router>
     );
